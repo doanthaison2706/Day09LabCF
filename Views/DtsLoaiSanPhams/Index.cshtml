@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ĐTSDay9Lesson.Models.DtsLoaiSanPham>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DTSMaLoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DTSTenLoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DTSTrangThai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DTSMaLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DTSTenLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DTSTrangThai)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DTSId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DTSId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DTSId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

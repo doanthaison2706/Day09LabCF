@@ -1,0 +1,54 @@
+﻿@model ĐTSDay9Lesson.Models.DtsSanPham
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DtsSanPham</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DTSMaSanPham)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DTSMaSanPham)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DTSTenSanPham)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DTSTenSanPham)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DTSHinhAnh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DTSHinhAnh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DTSSoLuong)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DTSSoLuong)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DTSDonGia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DTSDonGia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DTSLoaiSanPhamId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DTSLoaiSanPhamId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.DTSId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

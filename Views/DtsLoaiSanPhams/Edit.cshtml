@@ -1,0 +1,44 @@
+﻿@model ĐTSDay9Lesson.Models.DtsLoaiSanPham
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DtsLoaiSanPham</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DTSId" />
+            <div class="form-group">
+                <label asp-for="DTSMaLoai" class="control-label"></label>
+                <input asp-for="DTSMaLoai" class="form-control" />
+                <span asp-validation-for="DTSMaLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DTSTenLoai" class="control-label"></label>
+                <input asp-for="DTSTenLoai" class="form-control" />
+                <span asp-validation-for="DTSTenLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DTSTrangThai" /> @Html.DisplayNameFor(model => model.DTSTrangThai)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
