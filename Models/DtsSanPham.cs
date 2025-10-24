@@ -23,8 +23,8 @@ namespace ĐTSDay9Lesson.Models
         [Display(Name = "Đơn Giá")]
         public decimal DTSDonGia { get; set; }
         public long DTSLoaiSanPhamId { get; set; }
-
-        public DtsLoaiSanPham DTSLoaiSanPham { get; set; }
+        [ForeignKey(nameof(DTSId))]
+        public DtsLoaiSanPham? DTSLoaiSanPham { get; set; }
 
     }
 }

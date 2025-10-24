@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\controllers\\dtssanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:controllers\\dtssanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\controllers\\dtsloaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:controllers\\dtsloaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\models\\dtsloaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:models\\dtsloaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\models\\dtssanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:models\\dtssanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\controllers\\dtsloaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:controllers\\dtsloaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\views\\dtssanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:views\\dtssanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\views\\dtssanphams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:views\\dtssanphams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\views\\dtssanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:views\\dtssanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Migrations\\20251024005159_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251024005159_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\models\\dtssanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:models\\dtssanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\models\\dtsloaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:models\\dtsloaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\models\\dtscfcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:models\\dtscfcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\controllers\\dtssanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:controllers\\dtssanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|c:\\users\\doant\\source\\repos\\\u0111tsday9lesson\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD565A8-0606-403A-BE32-E631C1DCC302}|\u0110TSDay9Lesson.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\doant\\source\\repos\\BanHangLuuNiem\\BanHangLuuNiem\\Classes\\DataProcesser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -53,36 +73,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Views\\DtsSanPhams\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DtsSanPhams\\Index.cshtml",
+              "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Views\\DtsSanPhams\\Index.cshtml",
+              "RelativeToolTip": "Views\\DtsSanPhams\\Index.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv0IAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:04:07.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Views\\DtsSanPhams\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\DtsSanPhams\\Details.cshtml",
+              "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Views\\DtsSanPhams\\Details.cshtml",
+              "RelativeToolTip": "Views\\DtsSanPhams\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:04:04.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Views\\DtsSanPhams\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\DtsSanPhams\\Create.cshtml",
+              "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Views\\DtsSanPhams\\Create.cshtml",
+              "RelativeToolTip": "Views\\DtsSanPhams\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T00:58:41.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251024005159_v3.cs",
+              "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Migrations\\20251024005159_v3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251024005159_v3.cs",
+              "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Migrations\\20251024005159_v3.cs",
+              "RelativeToolTip": "Migrations\\20251024005159_v3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T00:52:00.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T00:26:12.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DtsSanPhamsController.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Controllers\\DtsSanPhamsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DtsSanPhamsController.cs",
               "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Controllers\\DtsSanPhamsController.cs",
               "RelativeToolTip": "Controllers\\DtsSanPhamsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T03:01:53.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T03:01:53.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DtsLoaiSanPhamsController.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Controllers\\DtsLoaiSanPhamsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DtsLoaiSanPhamsController.cs",
               "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Controllers\\DtsLoaiSanPhamsController.cs",
               "RelativeToolTip": "Controllers\\DtsLoaiSanPhamsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T03:00:58.114Z"
+              "WhenOpened": "2025-10-18T03:00:58.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "20251018025943_v2.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Migrations\\20251018025943_v2.cs",
               "RelativeDocumentMoniker": "Migrations\\20251018025943_v2.cs",
@@ -94,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DtsCFContext.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Models\\DtsCFContext.cs",
               "RelativeDocumentMoniker": "Models\\DtsCFContext.cs",
@@ -102,35 +187,38 @@
               "RelativeToolTip": "Models\\DtsCFContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T04:22:52.631Z"
+              "WhenOpened": "2025-10-17T04:22:52.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T04:22:07.781Z"
+              "WhenOpened": "2025-10-17T04:22:07.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "DtsLoaiSanPham.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Models\\DtsLoaiSanPham.cs",
               "RelativeDocumentMoniker": "Models\\DtsLoaiSanPham.cs",
               "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Models\\DtsLoaiSanPham.cs",
               "RelativeToolTip": "Models\\DtsLoaiSanPham.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T04:11:44.978Z"
+              "WhenOpened": "2025-10-17T04:11:44.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "20251017035405_v1.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Migrations\\20251017035405_v1.cs",
               "RelativeDocumentMoniker": "Migrations\\20251017035405_v1.cs",
@@ -142,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -154,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "DataProcesser.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\BanHangLuuNiem\\BanHangLuuNiem\\Classes\\DataProcesser.cs",
               "RelativeDocumentMoniker": "..\\BanHangLuuNiem\\BanHangLuuNiem\\Classes\\DataProcesser.cs",
@@ -166,27 +254,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-17T03:30:53.193Z"
+              "WhenOpened": "2025-10-17T03:30:53.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DtsSanPham.cs",
               "DocumentMoniker": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Models\\DtsSanPham.cs",
               "RelativeDocumentMoniker": "Models\\DtsSanPham.cs",
               "ToolTip": "C:\\Users\\doant\\source\\repos\\\u0110TSDay9Lesson\\Models\\DtsSanPham.cs",
               "RelativeToolTip": "Models\\DtsSanPham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T03:19:27.838Z"
+              "WhenOpened": "2025-10-17T03:19:27.838Z",
+              "EditorCaption": ""
             }
           ]
         }

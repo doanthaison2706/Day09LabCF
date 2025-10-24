@@ -20,7 +20,7 @@ namespace ĐTSDay9Lesson.Models
         public string DTSTenLoai { get; set; }
         [Display(Name = "Trạng thái")]
         public bool DTSTrangThai { get; set; }
-
+        
         public ICollection<DtsSanPham> DTSSanPhams { get; set; }
 
     }

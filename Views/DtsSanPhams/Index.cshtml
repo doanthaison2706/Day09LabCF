@@ -1,65 +1,71 @@
 ﻿@model IEnumerable<ĐTSDay9Lesson.Models.DtsSanPham>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh sách sản phẩm";
 }
 
-<h1>Index</h1>
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="fw-bold text-primary">Danh sách sản phẩm</h2>
+        <a asp-action="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Thêm sản phẩm
+        </a>
+    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.DTSMaSanPham)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DTSTenSanPham)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DTSHinhAnh)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DTSSoLuong)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DTSDonGia)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DTSLoaiSanPhamId)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.DTSMaSanPham)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DTSTenSanPham)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DTSHinhAnh)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DTSSoLuong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DTSDonGia)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DTSLoaiSanPhamId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.DTSId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.DTSId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.DTSId">Delete</a>
-            </td>
-        </tr>
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-body p-0">
+            <table class="table table-striped align-middle mb-0">
+                <thead class="table-primary">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.First().DTSMaSanPham)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().DTSTenSanPham)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().DTSHinhAnh)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().DTSSoLuong)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().DTSDonGia)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().DTSLoaiSanPhamId)</th>
+                        <th class="text-center">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.DTSMaSanPham</td>
+                            <td>@item.DTSTenSanPham</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.DTSHinhAnh))
+                                {
+                                    <img src="@item.DTSHinhAnh" alt="@item.DTSTenSanPham" class="img-thumbnail" style="width:80px; height:80px; object-fit:cover;" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted fst-italic">Không có ảnh</span>
+                                }
+                            </td>
+                            <td>@item.DTSSoLuong</td>
+                            <td>@String.Format("{0:N0} ₫", item.DTSDonGia)</td>
+                            <td>@item.DTSLoaiSanPhamId</td>
+                            <td class="text-center">
+                                <div class="btn-group" role="group">
+                                    <a asp-action="Edit" asp-route-id="@item.DTSId" class="btn btn-sm btn-outline-primary">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+                                    <a asp-action="Details" asp-route-id="@item.DTSId" class="btn btn-sm btn-outline-info">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.DTSId" class="btn btn-sm btn-outline-danger">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 }
-    </tbody>
-</table>
